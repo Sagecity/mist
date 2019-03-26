@@ -12,7 +12,7 @@ const Windows = require('./windows');
 const Settings = require('./settings');
 const log = require('./utils/logger').create('menuItems');
 const swarmLog = require('./utils/logger').create('swarm');
-const updateChecker = require('./updateChecker');
+//const updateChecker = require('./updateChecker');
 const ethereumNode = require('./ethereumNode.js');
 const ClientBinaryManager = require('./clientBinaryManager');
 
@@ -137,7 +137,7 @@ let menuTempl = function(webviews) {
       {
         label: i18n.t('mist.applicationMenu.app.checkForUpdates'),
         click() {
-          updateChecker.runVisibly();
+          //updateChecker.runVisibly();
         }
       },
       {
@@ -746,7 +746,7 @@ let menuTempl = function(webviews) {
       {
         label: i18n.t('mist.applicationMenu.app.checkForUpdates'),
         click() {
-          updateChecker.runVisibly();
+          //updateChecker.runVisibly();
         }
       }
     );

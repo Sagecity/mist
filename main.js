@@ -9,7 +9,7 @@ const i18n = require('./modules/i18n.js');
 const Sockets = require('./modules/socketManager');
 const Windows = require('./modules/windows');
 const ClientBinaryManager = require('./modules/clientBinaryManager');
-const UpdateChecker = require('./modules/updateChecker');
+//const UpdateChecker = require('./modules/updateChecker');
 const log = require('./modules/utils/logger').create('main');
 const Settings = require('./modules/settings');
 
@@ -166,7 +166,7 @@ function onReady() {
   enableSwarmProtocol();
 
   if (!Settings.inAutoTestMode) {
-    UpdateChecker.run();
+    //UpdateChecker.run();
   }
 
   ipcProviderBackend.init();
