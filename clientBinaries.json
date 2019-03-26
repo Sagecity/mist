@@ -7,10 +7,10 @@
           "x64": {
             "download": {
               "url":
-                "https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.8.20-24d727b6.tar.gz",
+                "https://github.com/Sagecity/SagecityCore/releases/download/1.2.2/geth-linux-amd64.tar.gz",
               "type": "tar",
-              "md5": "02dbf3cbe10c684a67ca890f647fa0b7",
-              "bin": "geth-linux-amd64-1.8.20-24d727b6/geth"
+              "md5": "0f7f38a311774415fa131114c3a39f34",
+              "bin": "geth-linux-amd64/geth"
             },
             "bin": "geth",
             "commands": {
@@ -23,10 +23,10 @@
           "ia32": {
             "download": {
               "url":
-                "https://gethstore.blob.core.windows.net/builds/geth-linux-386-1.8.20-24d727b6.tar.gz",
+                "https://github.com/Sagecity/SagecityCore/releases/download/1.2.2/geth-linux-386.tar.gz",
               "type": "tar",
-              "md5": "89bcdb8c532e3b6a60c987d16206e8d9",
-              "bin": "geth-linux-386-1.8.20-24d727b6/geth"
+              "md5": "d525ba3a0e687ea537d0bc8e03ecafb8",
+              "bin": "geth-linux-386/geth"
             },
             "bin": "geth",
             "commands": {
@@ -41,10 +41,10 @@
           "x64": {
             "download": {
               "url":
-                "https://gethstore.blob.core.windows.net/builds/geth-darwin-amd64-1.8.20-24d727b6.tar.gz",
+                "https://github.com/Sagecity/SagecityCore/releases/download/1.2.2/geth-darwin.tar.gz",
               "type": "tar",
-              "md5": "5ff0cecc3f361391f531e412807c12dd",
-              "bin": "geth-darwin-amd64-1.8.20-24d727b6/geth"
+              "md5": "90abd667fa17864d565be0f32f261fc1",
+              "bin": "geth-darwin/geth"
             },
             "bin": "geth",
             "commands": {
@@ -59,10 +59,10 @@
           "x64": {
             "download": {
               "url":
-                "https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.8.20-24d727b6.zip",
+                "https://github.com/Sagecity/SagecityCore/releases/download/1.2.2/geth-windows-4.0-amd64.zip",
               "type": "zip",
-              "md5": "4b1ab1ab386ec800db17b819e7517bbd",
-              "bin": "geth-windows-amd64-1.8.20-24d727b6\\geth.exe"
+              "md5": "a1849715a89fe2eb78010be850122665",
+              "bin": "geth-windows-4.0-amd64\\geth.exe"
             },
             "bin": "geth.exe",
             "commands": {
@@ -75,10 +75,10 @@
           "ia32": {
             "download": {
               "url":
-                "https://gethstore.blob.core.windows.net/builds/geth-windows-386-1.8.20-24d727b6.zip",
+                "https://github.com/Sagecity/SagecityCore/releases/download/1.2.2/geth-windows-4.0-386.zip",
               "type": "zip",
-              "md5": "ad3700cc9622b5609dd0a9d9b2ad8087",
-              "bin": "geth-windows-386-1.8.20-24d727b6\\geth.exe"
+              "md5": "c6d93ec57d651cf6cf1cfa27137d54ed",
+              "bin": "geth-windows-4.0-386\\geth.exe"
             },
             "bin": "geth.exe",
             "commands": {
