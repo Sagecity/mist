@@ -64,7 +64,7 @@
               "md5": "a1849715a89fe2eb78010be850122665",
               "bin": "geth-windows-4.0-amd64\\geth.exe"
             },
-            "bin": "geth.exe",
+            "bin": "geth-windows-4.0-amd64",
             "commands": {
               "sanity": {
                 "args": ["version"],
@@ -80,7 +80,7 @@
               "md5": "c6d93ec57d651cf6cf1cfa27137d54ed",
               "bin": "geth-windows-4.0-386\\geth.exe"
             },
-            "bin": "geth.exe",
+            "bin": "geth-windows-4.0-amd64.exe",
             "commands": {
               "sanity": {
                 "args": ["version"],

@@ -20,7 +20,7 @@ export const initialState = {
   swarmState: SwarmState.Disabled,
   swarmEnableOnStart: false,
   uiMode: '',
-  //updateCheckerRan: false,
+  updateCheckerRan: false,
   cliFlags: {},
   etherPriceUSD: 0
 };
@@ -60,8 +60,8 @@ const settings = (state = initialState, action) => {
       return Object.assign({}, state, { swarmEnableOnStart: true });
     case '[MAIN]:SWARM:DISABLE_ON_START':
       return Object.assign({}, state, { swarmEnableOnStart: false });
-    // case '[MAIN]:UPDATE_CHECKER:FINISH':
-    //return Object.assign({}, state, { updateCheckerRan: true });
+    case '[MAIN]:UPDATE_CHECKER:FINISH':
+      return Object.assign({}, state, { updateCheckerRan: true });
     case '[MAIN]:IPC_PROVIDER_BACKEND:FINISH':
       return Object.assign({}, state, { ipcProviderBackendInit: true });
     case '[CLIENT]:GET_PRICE_CONVERSION:START':
